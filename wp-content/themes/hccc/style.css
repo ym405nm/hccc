@@ -1,0 +1,292 @@
+@charset "utf-8";
+/*
+Theme Name: free_sample002
+Theme URI: http://theme.o2gp.com/
+Description: free_sample002
+Version: 1.0
+Author: o2 Group
+Author URI: http://theme.o2gp.com/
+Tags: simple
+
+	o2 Group v1.0
+	 http://theme.o2gp.com/
+
+	This theme was designed and built by o2 Group,
+	whose blog you will find at http://theme.o2gp.com/
+
+	The CSS, XHTML and design is released under GPL:
+	http://www.opensource.org/licenses/gpl-license.php
+
+*/
+
+*{margin:0;padding:0;}
+
+body{
+font: 14px/1.4 "メイリオ","Meiryo",arial,"ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro",Osaka,"ＭＳ Ｐゴシック","MS PGothic",Sans-Serif;
+color:#252525;
+background: url("images/bg.gif");
+}
+
+
+a{color:#37a937;text-decoration:none;}
+a:hover{color:#5dd75d;}
+a:active, a:focus {outline: 0;}
+img{border:0;}
+.clear{clear:both;}
+
+
+/*************
+全体
+*************/
+#wrapper{
+margin: 0 auto;
+padding: 0 20px;
+width: 910px;
+background-color: #fff;
+}
+
+/*************
+/* ヘッダー
+*************/
+#header{
+height: 80px;
+}
+
+#header h1 {
+padding: 7px 0 10px;
+font-size: 12px;
+font-weight: normal;
+}
+
+
+/*************
+/* トップナビゲーション
+*************/
+#topnav {
+	width: 910px;
+	margin-top: 21px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 15px;
+	height: 40px;
+	clear: both;
+	background: url("images/topnavi_bg.png");
+	background-position: center bottom;
+} 
+
+#topnav li {
+	display: inline;
+}
+  
+#topnav li a {
+	color: #FFFFFF;
+	text-decoration: none;
+	background-image: url(images/topnavi_bg.png);
+	background-repeat: repeat-x;
+	display: block;
+	float: left;
+	height: 35px;
+	width: auto;
+	padding-top: 5px;
+	line-height: 30px;
+	padding-right: 20px;
+	padding-left: 20px;
+	padding-bottom: 0px;
+	margin-right: 1px;
+	background-position: bottom;
+}
+
+#topnav li a:hover {
+	color: #FFFFFF;
+	background-image: url(images/topnavi_bg_over.png);
+}
+
+
+
+/*************
+メイン（右側）コンテンツ
+*************/
+#main {
+float: right;
+width: 618px;
+padding: 20px 0;
+display: inline;
+}
+
+#main h2{
+margin-bottom: 10px;
+padding: 0 10px 0px 40px;
+line-height: 40px;
+font-size: 15px;
+font-weight: normal;
+color: #333333;
+background: #0b82be url(images/heading.png) no-repeat;
+}
+
+#main h3 {
+font-size: 14px;
+line-height: 30px;
+background: url(images/h3.png) no-repeat ;
+padding-left: 15px;
+padding-bottom: 10px;
+margin-top: 20px;
+letter-spacing: 0.2em;
+color: #333333;
+}
+
+#main p {
+padding: 15px 15px 20px 20px;
+}
+
+/* 画像を右に回りこみ */
+
+#date {
+text-align: right;
+padding-right: 15px;
+padding-top: 15px;
+padding-bottom: 10px;
+font-weight:bold;
+color:#37a937;
+}
+
+#next {
+text-align: center;
+padding-top: 30px;
+padding-bottom: 30px;
+}
+
+img.aligncenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+img.alignright {
+    padding: 4px;
+    margin: 0 0 2px 7px;
+    display: inline;
+}
+img.alignleft {
+    padding: 4px;
+    margin: 0 7px 2px 0;
+    display: inline;
+}
+.alignright {
+    float: right;
+}
+.alignleft {
+    float: left;
+}
+
+
+/* フッター共通 */
+.box{
+float: left;
+width: 195px;
+margin: 20px 16px 10px 0;
+line-height: 1.2;
+}
+
+
+.last{margin-right:0;}
+
+
+/* ボタン */
+p.button{
+text-align: center;
+font-weight:bold;
+padding: 10px 0;
+}
+
+p.button a{
+display:block;
+line-height: 32px;
+background: #ffffff url(images/button.png) no-repeat;
+margin: 0 -20px;
+}
+
+p.button a{color:#fff;}
+p.button a:hover{color:#d9e8ff;}
+
+p.button a:hover{
+cursor:pointer;
+background-position: 0 -32px;
+}
+
+/* メインとフッターのリスト位置調節 */
+#main ul, #footer ul{margin-left: 20px;}
+#main li, #footer li{margin-bottom: 3px;}
+
+
+/*************
+サイド（左側）コンテンツ
+*************/
+#sidebar {
+float: left;
+width: 265px;
+padding: 15px 0;
+}
+
+#sidebar p{margin-bottom: 20px;}
+
+#sidebar h3 {
+margin-top: 5px;
+padding: 0 10px 0 33px;
+line-height: 40px;
+font-size: 15px;
+font-weight: normal;
+color: #333333;
+background: #0b82be url(images/heading2.png) no-repeat;
+}
+
+#sidebar ul{
+margin-left: 5px;
+padding: 10px 0;
+}
+
+#sidebar li{
+margin: 0 10px 10px 5px;
+list-style: none;
+border-bottom: 1px dashed #37a937;
+}
+
+#sidebar li a{
+background: url(images/list.png) no-repeat 0 50%;
+display: block;
+padding-left:15px;
+}
+
+#sidebar li a:hover{background-position: 3px 50%;}
+
+
+
+
+/*************
+/* フッター
+*************/
+#footer{
+clear:both;
+padding: 10px 0 10px;
+border-top: 1px solid #37a937;
+}
+
+#footer .inner{
+overflow: hidden;
+}
+
+* html #footer .inner{height:1%;}
+
+#footer #logo{
+float:left;
+padding: 10px 0 5px;
+width: 292px;
+}
+
+address{
+padding: 20px 0 3px;
+text-align: center;
+font-style:normal;
+font-size: 12px;
+clear:both;
+display:block;
+}
+
