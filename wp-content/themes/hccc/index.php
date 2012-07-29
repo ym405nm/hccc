@@ -1,7 +1,17 @@
 <?php get_header(); ?>
 
 		<!-- 中央メイン画像 -->
-		<p><img src="<?php bloginfo('template_directory');?>/images/main.jpg" width="910" height="300" alt="banner" /></p>
+		<div id="viewer">
+			<img src="<?php bloginfo('template_directory');?>/images/main.jpg" width="615" height="300" alt="" />
+			<img src="<?php bloginfo('template_directory');?>/images/main2.jpg" width="615" height="300" alt="" />
+			<img src="<?php bloginfo('template_directory');?>/images/main3.jpg" width="615" height="300" alt="" />
+			<img src="<?php bloginfo('template_directory');?>/images/main4.jpg" width="615" height="300" alt="" />
+			<img src="<?php bloginfo('template_directory');?>/images/main5.jpg" width="615" height="300" alt="" />
+			<img src="<?php bloginfo('template_directory');?>/images/main7.jpg" width="615" height="300" alt="" />
+			<img src="<?php bloginfo('template_directory');?>/images/main8.jpg" width="615" height="300" alt="" />
+			<img src="<?php bloginfo('template_directory');?>/images/main9.jpg" width="615" height="300" alt="" />
+			
+		</div>
 		<!-- / 中央メイン画像 -->
  
 		<!-- 中央カラム -->
