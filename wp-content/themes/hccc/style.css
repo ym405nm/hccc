@@ -72,6 +72,10 @@ font-weight: normal;
 	clear: both;
 	background: url("images/topnavi_bg.png");
 	background-position: center bottom;
+	border-radius: 7px 7px 7px 7px;
+	box-shadow: 5px 5px 5px 2px gray;
+	-webkit-box-shadow: 5px 5px 5px 2px gray;
+	-moz-box-shadow: 5px 5px 5px 2px gray;
 } 
 
 #topnav li {
@@ -94,6 +98,7 @@ font-weight: normal;
 	padding-bottom: 0px;
 	margin-right: 1px;
 	background-position: bottom;
+	border-radius: 7px 0 0 7px;
 }
 
 #topnav li a:hover {
@@ -121,6 +126,10 @@ font-size: 15px;
 font-weight: normal;
 color: #333333;
 background: #0b82be url(images/heading.png) no-repeat;
+border-radius: 7px;
+box-shadow: 5px 5px 5px 2px gray;
+-webkit-box-shadow: 5px 5px 5px 2px gray;
+-moz-box-shadow: 5px 5px 5px 2px gray;
 }
 
 #main h3 {
@@ -223,7 +232,7 @@ background-position: 0 -32px;
 #sidebar {
 float: left;
 width: 265px;
-padding: 15px 0;
+padding: 8px 0;
 }
 
 #sidebar p{margin-bottom: 20px;}
@@ -236,6 +245,10 @@ font-size: 15px;
 font-weight: normal;
 color: #333333;
 background: #0b82be url(images/heading2.png) no-repeat;
+border-radius: 7px;
+box-shadow: 5px 5px 5px 2px gray;
+-webkit-box-shadow: 5px 5px 5px 2px gray;
+-moz-box-shadow: 5px 5px 5px 2px gray;
 }
 
 #sidebar ul{
