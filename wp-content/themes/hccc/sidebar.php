@@ -2,7 +2,7 @@
 		<div id="sidebar">
 
 			<div style="text-align:center; margin-bottom:15px;">
-				<a href="/syusai"><img src="/img/syusaibutton.png"></a>
+				<a href="/syusai"><img src="<?php bloginfo('template_directory');?>/images/syusaibutton.png"></a>
 			</div>
 
 			<h3>最新のお知らせ一覧</h3>
