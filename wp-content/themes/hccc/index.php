@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-
+	<?php get_sidebar(); ?>
 		<!-- 中央メイン画像 -->
 		<div id="viewer">
 			<img src="<?php bloginfo('template_directory');?>/images/main.jpg" width="615" height="300" alt="" />
@@ -74,7 +74,5 @@
  
 		</div>
 		<!-- / 中央カラム -->
-
-<?php get_sidebar(); ?>
 
 <?php get_footer(); ?>
